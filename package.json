@@ -1,0 +1,28 @@
+{
+  "name": "mac-spider",
+  "version": "1.0.0",
+  "description": "A chrome extension to suggesting whether it's time to buy an apple product or not. Data fetched from [MacRumors](https://buyersguide.macrumors.com/)",
+  "main": "lib/index.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.1",
+    "superagent": "^3.5.2"
+  },
+  "devDependencies": {
+    "tslint": "^5.4.3",
+    "typescript": "^2.4.1"
+  },
+  "scripts": {
+    "build": "tsc -m None",
+    "run": "tsc;node lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/H2O-2/mac-spider.git"
+  },
+  "author": "H2O2",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/H2O-2/mac-spider/issues"
+  },
+  "homepage": "https://github.com/H2O-2/mac-spider#readme"
+}

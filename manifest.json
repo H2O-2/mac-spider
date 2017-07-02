@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "MacSpider",
+    "version": "0.1",
+    "author": "H2O2",
+    "description": "A chrome extension to suggesting whether it's time to buy an apple product or not",
+    "icons": {
+        "16": "img/icon.png",
+        "32": "img/icon2.png",
+        "48": "img/icon3.png"
+    },
+    "browser_action": {
+        "default_icon": {
+           "16": "img/icon.png",
+           "32": "img/icon2.png" 
+        },
+        "default_title": "MacSpider",
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "page": "background.html",
+        "persistent": true
+    },
+    "permissions": ["tabs", "http://*/", "https://*/" ]
+}
